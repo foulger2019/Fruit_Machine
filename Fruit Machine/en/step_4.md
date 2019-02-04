@@ -30,8 +30,6 @@ A `Which` statement takes an input (the list of randomly chosen fruits), and che
 
 Combine the random fruit picker and the game rules into a single function using a `Which` statement.
 
-![Roll](images/Roll.png)
-
 ```
 roll = RandomChoice[fruits, 3]
 Which[
