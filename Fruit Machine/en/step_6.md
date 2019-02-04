@@ -15,7 +15,7 @@ And then we can add using `+=`, and take away using `-=`
 Set up a score variable.
 
 ```
-score = 100
+score = 100;
 ```
 Put your `score` variable underneath your variables for `roll` and `result`. 
 
