@@ -5,7 +5,7 @@ How could you make the game end when the player loses all their points? Try putt
 ---hints---
 
 --- hint ---
-If the score is less than 0, then set the score to 100, and print `Text` which tells the user thye are out of points.
+If the score is less than 0, then set the score to 100, and print `Text` which tells the user they are out of points.
 
 --- /hint---
 
