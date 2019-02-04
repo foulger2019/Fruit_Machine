@@ -11,11 +11,13 @@ And then we can add using `+=`, and take away using `-=`
 ![Number Adding](images/NumberAdd.png)
 
 --- task ---
+
 Set up a score variable.
 
 ```
 score = 100
 ```
+Put your `score` variable underneath your variables for `roll` and `result`. 
 
 --- /task ---
 
