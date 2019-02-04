@@ -36,4 +36,5 @@ Button["Roll Again",
 Dynamic[Grid[{roll}, Frame -> All, FrameStyle -> Thick]]
 Dynamic[result]
 ```
+Delete your code for the non-Dynamic button you made in the previous step.
 --- /task ---
