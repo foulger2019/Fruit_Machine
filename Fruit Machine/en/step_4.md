@@ -37,5 +37,5 @@ Which[
  Max[Counts[roll]] == 2, Print["So Close!"],
  Max[Counts[roll]] == 1, Print["Loser!"]]
 ```
-You can delete any previous code featuring `RandomChoice[fruits, 3]`
+Delete any previous code featuring `RandomChoice[fruits, 3]`
 --- /task ---
