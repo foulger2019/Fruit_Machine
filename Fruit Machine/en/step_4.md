@@ -34,8 +34,8 @@ Combine the random fruit picker and the game rules into a single function using 
 roll = RandomChoice[fruits, 3]
 Which[
  Max[Counts[roll]] == 3, Print["Winner!"],
- Max[Counts[roll]] == 2, Print["So Close!"] ,
+ Max[Counts[roll]] == 2, Print["So Close!"],
  Max[Counts[roll]] == 1, Print["Loser!"]]
- 
 ```
+You can delete any previous code featuring `RandomChoice[fruits, 3]`
 --- /task ---
