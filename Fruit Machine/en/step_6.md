@@ -52,5 +52,7 @@ Create another button which sets the score back to 100.
 ```
 Button["Start Again", score = 100]
 ```
+Put your new button on a new line after the `"Roll Again"` button.
+
  --- /task ---
 
