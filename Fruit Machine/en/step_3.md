@@ -17,7 +17,6 @@ Use `RandomChoice` to generate a list of three random fruits taken from our `fru
 
 ```
 RandomChoice[fruits, 3]
-
 ```
 --- /task ---
 
