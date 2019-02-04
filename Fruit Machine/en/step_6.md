@@ -56,3 +56,8 @@ Put your new button on a new line after the `"Roll Again"` button.
 
  --- /task ---
 
+We also want to display the score using `Dynamic`, in the same way as we are displaying `Roll` and `Result`.
+
+---task---
+Add  `Dynamic[score]` to the end of your code.
+---/task---
