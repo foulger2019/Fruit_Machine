@@ -11,18 +11,21 @@ Put the buttons into a list, and then put the list inside the `Row` function. `R
 ```
 roll = RandomChoice[fruits, 3];
 result = Text["Click Roll Again to Start"];
-Row[{Button["Roll Again",
-   roll = RandomChoice[fruits, 3];
-   result =
-    Which[
-     Max[Counts[roll]] == 3, Text["Winner!"],
-     Max[Counts[roll]] == 2, Text["So Close!"],
-     Max[Counts[roll]] == 1, Text["Loser!"]]
-   ],
-  Button["Start Again", score = 100]
-  }]
+score = 100;
+Row[{
+Button["Roll Again",
+roll = RandomChoice[fruits, 3];
+result =
+Which[
+Max[Counts[roll]] == 3, score += 10; Text[ "Winner!"],
+ Max[Counts[roll]] == 2, Text[ "So Close!"],
+ Max[Counts[roll]] == 1, score -= 10; Text[ "Loser!"]]
+ ],
+ Button["Start Again", score = 100]
+ }]
 Dynamic[Grid[{roll}, Frame -> All, FrameStyle -> Thick]]
 Dynamic[result]
+Dynamic[score]
 ```
 --- /task ---
 
