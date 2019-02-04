@@ -5,7 +5,8 @@ Great! We now have two buttons. The first button rolls again, tells us if we won
 Let's design the interface so that the two buttons are next to each other.
 
 --- task ---
-Put the buttons into a list, and then put the list inside the `Row` function. `Row` takes a list, `{}`, of items, in this case buttons, and puts all of the items on one line.
+
+Put the buttons into a list, separated by a `,`, and then put the list inside the `Row` function. `Row` takes a list, `{}`, of items, in this case buttons, and puts all of the items on one line.
 
 
 ```
