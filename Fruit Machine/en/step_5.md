@@ -6,7 +6,8 @@ We want a button which selects three random pieces of fruit, and runs our Which 
 
 
 --- task ---
-Try to put your Which statement and your roll variable into a button.
+
+Put your Which statement and your roll variable into a button.
 
 Use a `;` to separate commands inside the button.
 
