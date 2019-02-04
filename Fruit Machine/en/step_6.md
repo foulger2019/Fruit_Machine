@@ -37,7 +37,6 @@ result =
    Max[Counts[roll]] == 3, score += 10; Text["Winner!"],
    Max[Counts[roll]] == 2, Text["So Close!"],
    Max[Counts[roll]] == 1, score -= 10; Text["Loser!"]];
-
 ```
 Replace your previous code for `result` with your new `Which` statement.
 
@@ -50,7 +49,6 @@ Create another button which sets the score back to 100.
 
 ```
 Button["Start Again", score = 100]
-
- ```
+```
  --- /task ---
 
