@@ -3,7 +3,7 @@
 There are three possible outcomes for the game:
 + 3 fruit the same: the player wins
 + 2 fruit the same: the player is close
-+ all fruits different: the player loses
++ All fruits different: the player loses
 
 We can find out if there are any duplicates by finding the `Count` of each fruit. We can then use `Max` to find out the largest number of duplicates.
 
