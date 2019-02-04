@@ -6,7 +6,7 @@ In this project, you are going to build an interactive Fruit Machine game. The g
 
 
 --- print-only ---
-![Complete project](images/Complete.png)
+![Complete project](images/complete.png)
 --- /print-only ---
 
 --- collapse ---
