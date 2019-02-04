@@ -5,7 +5,7 @@ There are three possible outcomes for the game:
 + 2 fruit the same: the player is close
 + All fruits different: the player loses
 
-We can find out if there are any duplicates by finding the `Count` of each fruit. We can then use `Max` to find out the largest number of duplicates.
+We can find out how many of the randomly selected fruits are the same by finding the `Count` of each fruit. We can then use `Max` to find out the largest number of duplicates.
 
 ![Max Counts 2](images/MaxCounts2.png)
 
