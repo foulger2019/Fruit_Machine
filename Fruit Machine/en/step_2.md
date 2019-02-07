@@ -4,7 +4,7 @@ The first step is to find pictures of fruits and get them into your notebook so 
 
 --- task ---
 
-Copy and Paste, or drag and drop these images into your notebook, and put them into a list.
+Right click on each of these images and save them to your desktop. Drag the images from your desktop into your notebook. If you are using a desktop version of Wolfram, you can drag and drop the images straight into your notebook.
 
 ![Strawberry](images/strawberry.png)
 ![Watermelon](images/watermelon.png)
